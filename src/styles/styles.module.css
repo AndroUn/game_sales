@@ -1,0 +1,68 @@
+.linkWrapper{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 15px;
+    z-index: 99;
+}
+
+.links{
+    font-size: 15px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 20px;
+    border-bottom: 2px solid black;
+    color:#114aa6;
+}
+.links:active{
+   color: #378bcc;
+}
+
+.links:hover{
+    border-bottom: 2px solid orange;
+}
+
+.games{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+.cardSection{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 1000px;
+}
+
+
+.menuList{
+    list-style-type: none;
+    padding: 0;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.menuList li{
+    font-weight: 500;
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.menuList li:hover{
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.menuList li:first-child{
+    border-radius: 5px 5px 0 0;
+}
+
+.menuList li:last-child{
+    border-radius: 0 0 5px 5px;
+    border-bottom: none;
+}

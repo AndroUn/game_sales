@@ -6,21 +6,50 @@ function randomNumber(){
 
 export const GameList = 
 [
-    {id: randomNumber(), img: '../img/Final_Fantasy_XVI_Key_Art.png', title: 'Final Fantasy 16', platform: 'PS5', price: '190₾'},
-    {id: randomNumber(), img: '../img/gofWarRagnarok.jpg', title: 'God of War: Ragnarok', platform: 'PS5', price: '120₾'},
-    {id: randomNumber(), img: '../img/starfield_23ps.jpg', title: 'Starfield', platform: 'Xbox Series S/X', price: '200₾'},
-    {id: randomNumber(), img: '../img/zelda-tears-of-the-kingdom-button-2k-1663127818777.jpg', title: 'Zelda: Tears of the Kingdom', platform: 'Nintendo Switch', price: '150₾'},
-    {id: randomNumber(), img: '../img/phwiQjbJddEg979YucUoP3Vr.webp', title: 'Assassins Creed Mirage ', platform: 'PS5 | Xbox Series X/S', price: '200₾'},
-    {id: randomNumber(), img: '../img/Horizon_Call_of_the_Mountain_cover_art.jpg', title: 'Horizon Call of the Mountain', platform: 'PS5 VR2', price: '100₾'},
-    {id: randomNumber(), img: '../img/Star_Wars_Jedi_Survivor.jpeg', title: 'Star Wars Jedi Survivor', platform: 'Xbox Series S/X', price: '170₾'},
-    {id: randomNumber(), img: '../img/Resident_Evil_4_remake_cover_art.jpg', title: 'Resident Evil 4 Remake', platform: 'PS5 | Xbox Series X/S', price: '150₾'},
-    {id: randomNumber(), img: '../img/Dead_Space_2022_Teaser_Art.jpg', title: 'Dead Space Remake', platform: 'PS5', price: '160'},
-    {id: randomNumber(), img: '../img/RedDeadRedemption.jpg', title: 'Red Dead Redemption', platform: 'Nintendo Switch', price: '100₾'},
-    {id: randomNumber(), img: '../img/ff7-remake.jpg', title: 'Final Fantasy 7 Remake', platform: 'PS4', price: '100'},
+    {id: randomNumber(), img: '../img/games/Final_Fantasy_XVI_Key_Art.png', title: 'Final Fantasy 16', platform: 'PS5', price: '190'},
+    {id: randomNumber(), img: '../img/games/gofWarRagnarok.jpg', title: 'God of War: Ragnarok', platform: 'PS5', price: '120'},
+    {id: randomNumber(), img: '../img/games/starfield_23ps.jpg', title: 'Starfield', platform: 'Xbox Series S/X', price: '200'},
+    {id: randomNumber(), img: '../img/games/zelda-tears-of-the-kingdom-button-2k-1663127818777.jpg', title: 'Zelda: Tears of the Kingdom', platform: 'Nintendo Switch', price: '150'},
+    {id: randomNumber(), img: '../img/games/phwiQjbJddEg979YucUoP3Vr.webp', title: 'Assassins Creed Mirage ', platform: 'PS5 | Xbox Series X/S', price: '200'},
+    {id: randomNumber(), img: '../img/games/Horizon_Call_of_the_Mountain_cover_art.jpg', title: 'Horizon Call of the Mountain', platform: 'PS5 VR2', price: '100'},
+    {id: randomNumber(), img: '../img/games/Star_Wars_Jedi_Survivor.jpeg', title: 'Star Wars Jedi Survivor', platform: 'Xbox Series S/X', price: '170'},
+    {id: randomNumber(), img: '../img/games/Resident_Evil_4_remake_cover_art.jpg', title: 'Resident Evil 4 Remake', platform: 'PS5 | Xbox Series X/S', price: '150'},
+    {id: randomNumber(), img: '../img/games/oVxOoP4w_400x400.jpg', title: 'Lies Of P', platform: 'PS5 | Xbox Series X/S', price: '199'},
+    {id: randomNumber(), img: '../img/games/RedDeadRedemption.jpg', title: 'Red Dead Redemption', platform: 'Nintendo Switch', price: '100'},
+    {id: randomNumber(), img: '../img/games/ff7-remake.jpg', title: 'Final Fantasy 7 Remake', platform: 'PS4', price: '100'},
 
 ]
 
 
+
+export const AccessoriesList = 
+[
+    {id: randomNumber(), img: '../img/accessories/1-800x800.jpg', title: 'HyperX Cloud II Wireless Gaming Headset Black/Red', brand: 'HyperX', price: '399'},
+    {id: randomNumber(), img: '../img/accessories/ornata-v3-2022-render-01-1300x1300x72.600x800.jpg', title: 'Razer Ornata V3 X Gaming RGB Keyboard Black', brand: 'Razer', price: '139'},
+    {id: randomNumber(), img: '../img/accessories/-razer-rz06-02610400-r3g1-raiju-gaming-controller-for-playstation-4-bt-black-3.600x800.jpg', title: 'Razer Gamepad Raiju Tournament', brand: 'Razer', price: '309'},
+    {id: randomNumber(), img: '../img/accessories/1-800x800.jpg', title: 'HyperX Cloud II Wireless Gaming Headset Black/Red', brand: 'HyperX', price: '399'},
+    {id: randomNumber(), img: '../img/accessories/ornata-v3-2022-render-01-1300x1300x72.600x800.jpg', title: 'Razer Ornata V3 X Gaming RGB Keyboard Black', brand: 'Razer', price: '139'},
+    {id: randomNumber(), img: '../img/accessories/-razer-rz06-02610400-r3g1-raiju-gaming-controller-for-playstation-4-bt-black-3.600x800.jpg', title: 'Razer Gamepad Raiju Tournament', brand: 'Razer', price: '309'},
+]
+
+
+
+export const TabsContent = 
+[
+    {id: randomNumber(), img: '../img/accessories/dualsense-controller-product-thumbnail-01-en-14sep21.webp', title: 'DualSense™ Wireless Controller', descr: 'Immerse yourself in the gaming experience with a controller the supports responsive haptic feedback and dynamic trigger effects.'},
+    {id: randomNumber(), img: '../img/accessories/sony-playstation-5.png', title: 'PlayStation 5 Console', descr: 'Experience an all-new generation of incredible PlayStation games. PS5 consoles are currently in stock.'},
+    {id: randomNumber(), img: '../img/accessories/3d-pulse-headset-product-thumbnail-01-en-14sep21.webp', title: 'PULSE 3D™ Wireless Headset', descr: 'Enjoy a seamless wireless experience with a headset fine-tuned for 3D Audio on PS5 consoles.'},
+    {id: randomNumber(), img: '../img/accessories/kamera-sony-playstation-5-hd-camera-5920-940x480.jpg', title: 'Playstation HD Camera', descr: 'Add yourself to your gameplay videos and broadcasts with smooth, sharp, full-HD capture.'},
+]
+
+
+export const slides = 
+[
+    {url: "../img/spider.png", title: "Save New York from Kraven and explore new feautures with symbiote suit in Marvel's Spider-Man 2"},
+    {url: "../img/mk.png", title: "Mortal Kombat 1 already available on our store"},
+    {url: "../img/star.png", title: "Explore and defy destiny of the galaxy in Starfield"},
+    {url: "../img/final.png", title: "Final Fantasy 16 already available on our store"}
+]
 
 
 

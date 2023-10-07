@@ -52,8 +52,11 @@
     cursor: pointer;
     transition: .3s all;
 }
-
 .container button:hover{
+    background-color: #3ac289;
+}
+
+.container button:active{
     transform: translateY(2px);
     box-shadow: none;
 }

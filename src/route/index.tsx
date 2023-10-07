@@ -2,6 +2,7 @@ import { RouteObject } from "react-router-dom";
 import LinkLayout from "../Layout/LinkLayout";
 import MainPage from "../Pages/MainPage";
 import GamePage from "../Pages/GamePage";
+import AccessoriesPage from "../Pages/AccessoriesPage";
 
 
 const routes: RouteObject[] = [
@@ -16,6 +17,10 @@ const routes: RouteObject[] = [
             {
                 element: <GamePage/>,
                 path: '/games'
+            },
+            {
+                element: <AccessoriesPage />,
+                path: '/accessories'
             }
        ]
     }

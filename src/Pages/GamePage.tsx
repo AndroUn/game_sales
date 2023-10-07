@@ -1,7 +1,6 @@
 import { useState } from "react"
 import ProductCard from "../component/ProductCard"
 import {GameList} from "../data/data"
-import CardInterface from "../interfaces/Card.interface"
 import styles from "../styles/styles.module.css"
 
 const GamePage: React.FC<{}> = () => {
@@ -35,6 +34,8 @@ const GamePage: React.FC<{}> = () => {
             </div>
 
             </div>
+
+
         </div>
     )
 }

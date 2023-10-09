@@ -6,10 +6,12 @@ function randomNumber(){
 
 export const GameList = 
 [
+    {id: randomNumber(), img: '../img/games/new-spider-man-2-images-v0-62s0ml5e1gmb1.jpg', title: "Marvel's Spider-Man 2", platform: 'PS5', price: '199'},
+    {id: randomNumber(), img: '../img/games/dfxemr0-843a931b-f430-4719-86c7-75f126a77340 (1).png', title: "Mortal Kombat 1", platform: 'PS5 | Xbox Series X/S', price: '199'},
     {id: randomNumber(), img: '../img/games/Final_Fantasy_XVI_Key_Art.png', title: 'Final Fantasy 16', platform: 'PS5', price: '190'},
     {id: randomNumber(), img: '../img/games/gofWarRagnarok.jpg', title: 'God of War: Ragnarok', platform: 'PS5', price: '120'},
     {id: randomNumber(), img: '../img/games/starfield_23ps.jpg', title: 'Starfield', platform: 'Xbox Series S/X', price: '200'},
-    {id: randomNumber(), img: '../img/games/zelda-tears-of-the-kingdom-button-2k-1663127818777.jpg', title: 'Zelda: Tears of the Kingdom', platform: 'Nintendo Switch', price: '150'},
+    {id: randomNumber(), img: '../img/games/zelda-tears-of-the-kingdom-button-2k-1663127818777.jpg', title: 'Zelda : Tears of the Kingdom', platform: 'Nintendo Switch', price: '150'},
     {id: randomNumber(), img: '../img/games/phwiQjbJddEg979YucUoP3Vr.webp', title: 'Assassins Creed Mirage ', platform: 'PS5 | Xbox Series X/S', price: '200'},
     {id: randomNumber(), img: '../img/games/Horizon_Call_of_the_Mountain_cover_art.jpg', title: 'Horizon Call of the Mountain', platform: 'PS5 VR2', price: '100'},
     {id: randomNumber(), img: '../img/games/Star_Wars_Jedi_Survivor.jpeg', title: 'Star Wars Jedi Survivor', platform: 'Xbox Series S/X', price: '170'},

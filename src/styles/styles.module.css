@@ -31,10 +31,13 @@
     border-bottom: none;
 }
 
+.GamePage{
+    padding-top: 100px;
+}
+
 .games{
     display: flex;
     justify-content: center;
-    padding: 100px 0;
 }
 
 .cardSection{
@@ -156,3 +159,63 @@
     border-radius: 10px;
 }
 
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.searchInput{
+    width:30%;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px 0 0 4px;
+    font-size: 17px;
+    padding: 10px;
+    font-family: 'Noto Sans Duployan', sans-serif;
+}
+
+.searchInput:focus{
+    outline: none !important;
+}
+
+.searchBtn{
+    border: none;
+    background-color:  #47e6a3;
+    border-radius: 0 4px 4px 0;
+    padding: 7px 14px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12) ;
+}
+
+.searchBtn:hover{
+    background-color: #3ac289;
+}
+
+.searchBtn:active{
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+
+.selectOp{
+    height: 100%;
+    border-radius: 4px;
+    margin-left: 20px;
+    padding: 7px 14px;
+    font-size: 18px;
+}
+
+.search p{
+    position: absolute;
+    font-family: 'Noto Sans Duployan', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    bottom: 35px;
+    margin-left: 20px;
+}
+
+.selectOp:focus{
+    outline: none !important;
+}

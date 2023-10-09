@@ -26,8 +26,11 @@ const LinkLayout: React.FC<{}> = () => {
     }
 
 
+
     useEffect(()=> {
        if (cart.length > 0) setCartDisplay('block')
+       document.title = 'Game Sales';
+
     },[cart.length])
 
     return(

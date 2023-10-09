@@ -45,6 +45,7 @@
     flex-wrap: wrap;
     align-content: flex-start;
     width: 1000px;
+    margin-bottom: 30px;
 }
 
 
@@ -135,7 +136,7 @@
 .tabHeaders{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin: 30px;
 }
 
 .tabHeader{
@@ -218,4 +219,8 @@
 
 .selectOp:focus{
     outline: none !important;
+}
+
+.accessories{
+    padding: 100px 0;
 }

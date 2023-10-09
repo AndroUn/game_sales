@@ -1,0 +1,59 @@
+.mainP {
+    font-size: 100px;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    margin: 20px;
+    z-index: 999;
+}
+
+.AboutPage{
+    padding: 70px 0;
+    background: url('../../public/img/games/landscape-png-images-10.png')
+}
+
+.aboutDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: 500px;
+    z-index: 99;
+    margin: 0;
+}
+
+.aboutText{
+    width: 600px;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-shadow: white 1px 0 10px;
+    z-index: 99;
+}
+
+.aboutBtn{
+    margin-top: 20px;
+    padding: 10px 10px ;
+    box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12) ;
+    border: none ;
+    border-radius: 4px ;
+    background-color:  #47e6a3;
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21) ;
+    font-size: 14px ;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+
+.aboutBtn:hover{
+    background-color: #3ac289;
+}
+
+.aboutBtn:active{
+    transform: translateY(2px);
+    box-shadow: none;
+}

@@ -29,9 +29,9 @@ export const AccessoriesList =
     {id: randomNumber(), img: '../img/accessories/1-800x800.jpg', title: 'HyperX Cloud II Wireless Gaming Headset Black/Red', brand: 'HyperX', price: '399'},
     {id: randomNumber(), img: '../img/accessories/ornata-v3-2022-render-01-1300x1300x72.600x800.jpg', title: 'Razer Ornata V3 X Gaming RGB Keyboard Black', brand: 'Razer', price: '139'},
     {id: randomNumber(), img: '../img/accessories/-razer-rz06-02610400-r3g1-raiju-gaming-controller-for-playstation-4-bt-black-3.600x800.jpg', title: 'Razer Gamepad Raiju Tournament', brand: 'Razer', price: '309'},
-    {id: randomNumber(), img: '../img/accessories/1-800x800.jpg', title: 'HyperX Cloud II Wireless Gaming Headset Black/Red', brand: 'HyperX', price: '399'},
-    {id: randomNumber(), img: '../img/accessories/ornata-v3-2022-render-01-1300x1300x72.600x800.jpg', title: 'Razer Ornata V3 X Gaming RGB Keyboard Black', brand: 'Razer', price: '139'},
-    {id: randomNumber(), img: '../img/accessories/-razer-rz06-02610400-r3g1-raiju-gaming-controller-for-playstation-4-bt-black-3.600x800.jpg', title: 'Razer Gamepad Raiju Tournament', brand: 'Razer', price: '309'},
+    {id: randomNumber(), img: '../img/accessories/63fa48552b500.png', title: 'Trust GXT 606 JAVV 2.0 Speaker RGB', brand: 'Trust', price: '70'},
+    {id: randomNumber(), img: '../img/accessories/1_g1p4-4q.png', title: '2E Gaming Mouse Pad PRO Speed XL Black', brand: '2E', price: '39'}
+    
 ]
 
 

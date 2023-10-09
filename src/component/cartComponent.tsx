@@ -3,6 +3,7 @@ import styles from "../styles/cart_box.module.css"
 import { CartBtn } from "../styles/styled"
 import { useAppSelector } from "../hooks/hooks"
 import { RootState } from "../store"
+import { Link } from "react-router-dom"
 
 
 
@@ -13,7 +14,7 @@ const CartComponent: React.FC<{}>  = () => {
     return(
         <div className = {styles.cartComp}>
             <p>total price: {price} ₾</p>
-            <CartBtn>Purchase</CartBtn>
+            <CartBtn ><Link to={'/*'} style={{ textDecoration: 'none', color: 'black'}}>Purchase</Link></CartBtn>
         </div>
 
     )

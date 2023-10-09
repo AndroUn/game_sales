@@ -3,6 +3,8 @@ import LinkLayout from "../Layout/LinkLayout";
 import MainPage from "../Pages/MainPage";
 import GamePage from "../Pages/GamePage";
 import AccessoriesPage from "../Pages/AccessoriesPage";
+import AboutPage from "../Pages/AboutPage";
+import ErrorPage from "../Pages/ErrorPage";
 
 
 const routes: RouteObject[] = [
@@ -21,8 +23,16 @@ const routes: RouteObject[] = [
             {
                 element: <AccessoriesPage />,
                 path: '/accessories'
+            },
+            {
+                element: <AboutPage />,
+                path: '/about'
             }
        ]
+    },
+    {
+        element: <ErrorPage />,
+        path: '*'
     }
 ]
 

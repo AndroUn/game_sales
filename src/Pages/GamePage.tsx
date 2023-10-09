@@ -24,7 +24,7 @@ const GamePage: React.FC<{}> = () => {
 
     const searchGame = (e?:any) => {
         if (inputRef.current?.value !== '' && e.key === 'Enter'){
-            setData(GameList.filter(item => item.title.toLowerCase().includes(inputRef.current?.value || '')))
+            setData(GameList.filter(item => item.title.toLowerCase().includes((inputRef.current?.value || '').toLowerCase())))
             console.log(inputRef.current?.value || '')
 
         }else if(inputRef.current?.value == '' && e.key === 'Enter'){

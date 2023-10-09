@@ -3,7 +3,7 @@ export interface CardInterface {
     img: string,
     title: string,
     platform: string,
-    price: string,
+    price: string
 }
 
 export default CardInterface

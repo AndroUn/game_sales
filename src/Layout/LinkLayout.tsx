@@ -38,7 +38,6 @@ const LinkLayout: React.FC<{}> = () => {
             <div className={styles.linkWrapper}>
                 <Link className={styles.links} to={'/'}>Home</Link>
                 <Link className={styles.links} to={'/games'}>Games</Link>
-                <Link className={styles.links} to={'/consoles'}>Consoles</Link>
                 <Link className={styles.links} to={'/accessories'}>Computer Accessories</Link>
                 <Link className={styles.links} to={'/about'}>About</Link>
                 <a className={styles.links} style={{cursor: 'pointer'}} onClick={() => openCart()}><FontAwesomeIcon icon={faCartShopping} /></a>

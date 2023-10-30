@@ -42,7 +42,7 @@ const GamePage: React.FC<{}> = () => {
                     <select onChange={e => setRenderedItemsQuantity(+e.target.value)} className={styles.selectOp}>
                         <option value={data.length}>All</option>
                         <option value="9">9</option>
-                        <option value="3">3</option>
+                        <option value="6">6</option>
                     </select>
                 </div>
             </div>

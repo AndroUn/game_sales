@@ -7,6 +7,7 @@ import { useEffect, useState } from "react"
 
 
 
+
 const MainPage: React.FC<{}> = () => {
     const [TabsIndex, setTabsIndex] = useState(0)
     const tabs = document.getElementsByClassName(styles.tabHeader)
@@ -26,11 +27,12 @@ const MainPage: React.FC<{}> = () => {
         setTabsIndex(tabIndex)
     }
 
-    const containerStyles = { 
+    const containerStyles = {
         width: '1200px',
         height: '420px',
         margin: '0 auto',
     }
+
 
     return(
         <div style={{paddingTop: '70px'}}>

@@ -34,3 +34,18 @@
     flex-direction: column;
     margin-right: 50px;
 }
+
+
+/***responsive MEDIA***/
+
+@media (max-width: 1250px){
+    .footerContainer{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1100px){
+    .footerContainer{
+        font-size: 12px;
+    }
+}

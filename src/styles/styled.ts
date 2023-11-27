@@ -1,3 +1,4 @@
+import { current } from "@reduxjs/toolkit";
 import styled, {css} from "styled-components";
 
 export const CartBox = styled.div<{ display: string }>`
@@ -49,6 +50,8 @@ export const CartBtn = styled.button`
         box-shadow: none;
   }
 `
+
+
 
 
 

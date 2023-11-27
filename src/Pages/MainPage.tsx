@@ -1,9 +1,10 @@
-import SliderCarousel from "../component/slider"
 import {slides, TabsContent} from "../data/data"
-import Carrousel from "../component/react-multi-carrousel"
 import TabsComponent from "../component/tabs"
 import styles from "../styles/styles.module.css"
 import { useEffect, useState } from "react"
+import SimpleSlider from "../component/simpleSlider"
+import MultiCarrouselSlider from "../component/multi-carrousel"
+import Carrousel from "../component/react-multi-carrousel"
 
 
 
@@ -27,32 +28,23 @@ const MainPage: React.FC<{}> = () => {
         setTabsIndex(tabIndex)
     }
 
-    const containerStyles = {
-        width: '1200px',
-        height: '420px',
-        margin: '0 auto',
-    }
 
 
     return(
         <div style={{paddingTop: '70px'}}>
-            <div style={containerStyles}>
-                <SliderCarousel slides={slides} parentWidth = {1200}/>
-            </div>
-
-            <br />
+            <SimpleSlider slides={slides}/>
 
             <p className={styles.carouselHeader}>Most Popular</p>
+ 
             <Carrousel />
 
-
-            <TabsComponent key={TabsContent[TabsIndex].id} id={TabsContent[TabsIndex].id} title={TabsContent[TabsIndex].title}  descr={TabsContent[TabsIndex].descr}  img={TabsContent[TabsIndex].img} />
+            <TabsComponent key={TabsContent[TabsIndex].id} id={TabsContent[TabsIndex].id} title={TabsContent[TabsIndex].title}  descr={TabsContent[TabsIndex].descr}  img={TabsContent[TabsIndex].img} price={TabsContent[TabsIndex].price}/>
 
 
             <div className={styles.tabHeaders}>
             {TabsContent.map((item, index) => 
                     <div onClick={()=> switchTab(index)} key={item.id} className={styles.tabHeader}>
-                        <img className={styles.tabHeaderImage} src={item.img} />
+                        <img className={styles.tabHeaderImage} alt={item.title} src={item.img} />
                         <p className={styles.tabHeaderTitle}>{item.title}</p>
                     </div>)}
             </div>

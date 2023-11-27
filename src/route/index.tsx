@@ -5,6 +5,7 @@ import GamePage from "../Pages/GamePage";
 import AccessoriesPage from "../Pages/AccessoriesPage";
 import AboutPage from "../Pages/AboutPage";
 import ErrorPage from "../Pages/ErrorPage";
+import ProductParamPage from "../Pages/ProductParamPage";
 
 
 const routes: RouteObject[] = [
@@ -27,6 +28,10 @@ const routes: RouteObject[] = [
             {
                 element: <AboutPage />,
                 path: '/about'
+            },
+            {
+                element: <ProductParamPage />,
+                path: '/params/:title'
             }
        ]
     },

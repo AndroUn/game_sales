@@ -2,7 +2,8 @@ export interface TabsInterface {
     id?: number,
     img: string,
     title: string,
-    descr: string
+    descr: string,
+    price: string
 }
 
 export default TabsInterface

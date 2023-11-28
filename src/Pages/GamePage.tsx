@@ -22,20 +22,32 @@ const GamePage: React.FC<{}> = () => {
     }
 
 
-    const searchGame = (e?:any) => {
-        if (inputRef.current?.value !== '' && e.key === 'Enter'){
+    const searchGame = () => {
+        if (inputRef.current?.value !== ''){
             setData(GameList.filter(item => item.title.toLowerCase().includes((inputRef.current?.value || '').toLowerCase())))
             console.log(inputRef.current?.value || '')
-
-        }else if(inputRef.current?.value == '' && e.key === 'Enter'){
+        }else if(inputRef.current?.value == ''){
             alert('Enter a game title')
         }
     }
 
+
+    const searchGameByKeyDown = (event?: any) => {
+        if (inputRef.current?.value !== '' && event.key == 'Enter'){
+            setData(GameList.filter(item => item.title.toLowerCase().includes((inputRef.current?.value || '').toLowerCase())))
+            console.log(inputRef.current?.value || '')
+        }else if(inputRef.current?.value == '' && event.key== 'Enter'){
+            alert('Enter a game title')
+        }
+    }
+
+
+
+
     return(
         <div className={styles.GamePage}>
             <div className={styles.search}>
-                <input placeholder="Enter a game title" className={styles.searchInput} type="text" ref={inputRef} onKeyDown={(e)=> searchGame(e)}/>
+                <input placeholder="Enter a game title" className={styles.searchInput} type="text" ref={inputRef} onKeyDownCapture={(event) => searchGameByKeyDown(event)}/>
                 <button onClick={()=> searchGame()} className={styles.searchBtn}><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
                 <div style={{position: 'relative'}}>
                     <p>quantity:</p>

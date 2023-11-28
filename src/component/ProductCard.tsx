@@ -29,17 +29,17 @@ const ProductCard: React.FC<CardInterface>  = ({id, img, title, price, platform}
 
     return (
         <div key={id}>
-            <Link style={{textDecoration: 'none'}} to={`/params/${title}`}><div className={styles.container}>
+            <div className={styles.container}>
                 <div className={styles.imgContainer}>
                     <img src={img} alt={title} />
                 </div>
-                <p className={styles.title}>{title}</p>
+                <Link style={{textDecoration: 'none'}} to={`/params/${title}`}><p className={styles.title}>{title}</p></Link>
                     <p>Platform: {platform}</p>
                 <div className={styles.box}>
                     <button onClick={()=> AddCartItem()}>Add to Cart</button>
                     <div className={styles.price}><span>{price}</span> gel </div>
                 </div>
-            </div></Link>
+            </div>
         </div>
     )
 }

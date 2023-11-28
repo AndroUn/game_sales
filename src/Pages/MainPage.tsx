@@ -36,7 +36,7 @@ const MainPage: React.FC<{}> = () => {
 
             <p className={styles.carouselHeader}>Most Popular</p>
  
-            <Carrousel />
+            {/* <Carrousel /> */}
 
             <TabsComponent key={TabsContent[TabsIndex].id} id={TabsContent[TabsIndex].id} title={TabsContent[TabsIndex].title}  descr={TabsContent[TabsIndex].descr}  img={TabsContent[TabsIndex].img} price={TabsContent[TabsIndex].price}/>
 
